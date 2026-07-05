@@ -1,0 +1,31 @@
+---
+title: "Publications"
+---
+
+<!-- TODO: Replace the placeholder entries with the official publication list. Use consistent author names, venue abbreviations, volume/issue/pages, DOI, and paper links. -->
+
+## Selected publications
+
+To be added.
+
+Suggested format:
+
+> **Author A**, Author B, and Author C, “Paper title,” *Journal or Conference Name*, year. [[PDF]](#) [[Code]](#) [[DOI]](#)
+
+## Journal papers
+
+To be added.
+
+## Conference papers
+
+To be added.
+
+## Manuscripts and preprints
+
+To be added.
+
+## Research artifacts
+
+- Code repositories: to be added
+- Datasets: to be added
+- Slides or posters: to be added
