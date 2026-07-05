@@ -2,26 +2,41 @@
 title: "Teaching"
 ---
 
-<!-- TODO: Add confirmed teaching assistantships, lectures, guest talks, course websites, and teaching materials. -->
+My teaching interests align with wireless communications, communication networks, signal processing, optimization, and machine learning for communication systems. For faculty applications, I would like this page to present both course readiness and a coherent teaching philosophy.
 
-## Teaching interests
+## Teaching philosophy
 
-I am interested in teaching courses related to wireless communications, communication networks, signal processing, optimization, machine learning for communications, probability, and algorithms.
+I aim to help students connect mathematical foundations with practical communication systems. In courses related to wireless networks and signal processing, I emphasize three layers of learning: conceptual understanding, analytical modeling, and implementation-oriented thinking. This structure helps students move from equations and protocols to system-level design decisions.
 
-Potential course areas include:
+## Courses I am prepared to teach
 
-- Wireless communications
-- Communication networks
-- 5G/6G mobile networks
-- Integrated sensing and communication
-- Optimization for communication systems
-- Machine learning for wireless networks
-- Probability and stochastic processes
-- Data structures and algorithms
+::: {.course-grid}
+::: {.course-card}
+### Wireless and mobile communications
+Wireless Communications, Mobile Communications, 5G/6G Networks, Integrated Sensing and Communication
+:::
+
+::: {.course-card}
+### Networking and systems
+Communication Networks, Computer Networks, C-V2X, Edge Intelligence, Internet of Things
+:::
+
+::: {.course-card}
+### Mathematical foundations
+Probability, Stochastic Processes, Optimization for Communication Systems, Queueing Theory
+:::
+
+::: {.course-card}
+### Computing and learning
+Machine Learning for Wireless Networks, Reinforcement Learning, Data Structures, Algorithms
+:::
+:::
 
 ## Teaching experience
 
 To be added.
+
+<!-- Suggested items: teaching assistantships, guest lectures, invited tutorials, course projects, supervised students, and teaching materials. -->
 
 ## Teaching materials
 
