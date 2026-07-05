@@ -4,23 +4,23 @@ title: "Publications"
 
 For the most up-to-date publication record, please see my [Google Scholar profile](https://scholar.google.com/citations?user=NSj-LLQAAAAJ&hl=en).
 
-<!-- TODO: Replace the placeholder sections below with the official publication list. Use the same author spelling as Google Scholar and CV. Add DOI, PDF, code, and arXiv links where available. -->
+<!-- TODO before publishing: add DOI, IEEE Xplore, arXiv, PDF, code, and project links where available. Confirm official author spelling and venue formatting against the final CV. -->
 
 ## Selected publications
 
-Selected publications will be added here.
-
-Recommended format:
-
-> **Chih-Yu Lin**, Coauthor A, and Coauthor B, “Paper title,” *IEEE Journal or Conference Name*, year. [[PDF]](#) [[DOI]](#) [[Code]](#)
+1. **C.-Y. Lin** and W. Liao, “AoI-Aware Interference Mitigation for Task-Oriented Multicasting in Multi-Cell NOMA Networks,” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 11341–11356, Sep. 2024.
 
 ## Journal papers
 
-To be added.
+1. **C.-Y. Lin** and W. Liao, “AoI-Aware Interference Mitigation for Task-Oriented Multicasting in Multi-Cell NOMA Networks,” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 11341–11356, Sep. 2024.
 
 ## Conference papers
 
-To be added.
+1. **C.-Y. Lin** and W. Liao, “Energy-aware Age of Information (AoI) Minimization for Internet of Things in NOMA-based LEO Satellite Networks,” in *Proc. IEEE Vehicular Technology Conference (VTC2024-Spring)*, pp. 1–5, Jun. 2024.
+
+2. C. C. Chung, **C.-Y. Lin**, and J. Z. Yang, “Time-domain characteristics of body channel communication (BCC) and BCC transceiver design,” in *Proc. VLSI Design, Automation and Test (VLSI-DAT)*, pp. 1–4, 2016.
+
+3. C. C. Chung, C. T. Chang, and **C.-Y. Lin**, “A 1 Mb/s–40 Mb/s human body channel communication transceiver,” in *Proc. VLSI Design, Automation and Test (VLSI-DAT)*, pp. 1–4, 2015.
 
 ## Manuscripts and preprints
 
@@ -31,7 +31,3 @@ To be added.
 - Code repositories: to be added
 - Slides or posters: to be added
 - Datasets: to be added, if public
-
-## Notes for updating this page
-
-When preparing the public version, the publication list should be organized by type and ordered reverse-chronologically. For faculty applications, I recommend marking 3–5 representative works with one-sentence contribution summaries.
