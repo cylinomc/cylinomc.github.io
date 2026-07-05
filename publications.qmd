@@ -2,15 +2,17 @@
 title: "Publications"
 ---
 
-<!-- TODO: Replace the placeholder entries with the official publication list. Use consistent author names, venue abbreviations, volume/issue/pages, DOI, and paper links. -->
+For the most up-to-date publication record, please see my [Google Scholar profile](https://scholar.google.com/citations?user=NSj-LLQAAAAJ&hl=en).
+
+<!-- TODO: Replace the placeholder sections below with the official publication list. Use the same author spelling as Google Scholar and CV. Add DOI, PDF, code, and arXiv links where available. -->
 
 ## Selected publications
 
-To be added.
+Selected publications will be added here.
 
-Suggested format:
+Recommended format:
 
-> **Author A**, Author B, and Author C, “Paper title,” *Journal or Conference Name*, year. [[PDF]](#) [[Code]](#) [[DOI]](#)
+> **Chih-Yu Lin**, Coauthor A, and Coauthor B, “Paper title,” *IEEE Journal or Conference Name*, year. [[PDF]](#) [[DOI]](#) [[Code]](#)
 
 ## Journal papers
 
@@ -27,5 +29,9 @@ To be added.
 ## Research artifacts
 
 - Code repositories: to be added
-- Datasets: to be added
 - Slides or posters: to be added
+- Datasets: to be added, if public
+
+## Notes for updating this page
+
+When preparing the public version, the publication list should be organized by type and ordered reverse-chronologically. For faculty applications, I recommend marking 3–5 representative works with one-sentence contribution summaries.
