@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Chih-Yu Lin"
+  site-url: "https://dululu29.github.io"
+  description: "Academic homepage"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/dululu29
+        aria-label: GitHub
+  page-footer:
+    center: "© 2026 Chih-Yu Lin"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-copy: true
+
+execute:
+  freeze: auto
