@@ -5,7 +5,7 @@ project:
 website:
   title: "Chih-Yu Lin"
   site-url: "https://dululu29.github.io"
-  description: "Academic homepage"
+  description: "Academic homepage of Chih-Yu Lin — wireless communications, 6G networks, task-oriented semantic communication, and information freshness."
   navbar:
     left:
       - href: index.qmd
@@ -24,8 +24,18 @@ website:
       - icon: github
         href: https://github.com/dululu29
         aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/chih-yu-lin-287948113/
+        aria-label: LinkedIn
   page-footer:
-    center: "© 2026 Chih-Yu Lin"
+    left: "© 2026 Chih-Yu Lin"
+    right:
+      - text: "Google Scholar"
+        href: https://scholar.google.com/citations?user=NSj-LLQAAAAJ&hl=en
+      - text: "LinkedIn"
+        href: https://www.linkedin.com/in/chih-yu-lin-287948113/
+      - text: "GitHub"
+        href: https://github.com/dululu29
 
 format:
   html:
