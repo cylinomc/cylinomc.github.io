@@ -2,25 +2,48 @@
 title: "Research"
 ---
 
-My research centers on wireless communications and networking for emerging 6G systems. I am particularly interested in systems where communication is not an end in itself, but a means to support timely sensing, inference, control, and decision-making tasks.
+My research goal is to build wireless systems that communicate according to the needs of downstream tasks. In emerging 6G networks, users, vehicles, sensors, and edge intelligence modules will exchange information not only for connectivity, but also for sensing, inference, and real-time decision making. This requires communication protocols and resource allocation methods that account for timeliness, task utility, reliability, and computation constraints.
 
-## Research themes
+## Research vision
+
+I am interested in **freshness-aware and task-oriented wireless intelligence**. Instead of optimizing a single physical-layer metric, my work studies how wireless systems can decide what information is useful, when it should be updated, and how limited wireless resources should be allocated across communication, sensing, and computation tasks.
+
+This vision connects three directions:
+
+::: {.research-grid}
+::: {.research-card}
+### Semantic and task-oriented communication
+Designing communication strategies that preserve task-relevant information and reduce unnecessary transmission overhead.
+:::
+
+::: {.research-card}
+### Information freshness
+Using Age of Information and deadline-aware metrics to characterize when delivered information remains useful.
+:::
+
+::: {.research-card}
+### Integrated 6G resource allocation
+Jointly considering communication, sensing, computation, beamforming, power control, scheduling, and learning-based optimization.
+:::
+:::
+
+## Current research themes
 
 ### Task-oriented semantic communication
 
-Task-oriented semantic communication aims to transmit information according to its usefulness for downstream tasks rather than reconstructing raw data perfectly. This perspective is especially important for wireless systems that support sensing, inference, and control under tight latency and resource constraints.
+Task-oriented semantic communication shifts the objective from bit-level reconstruction to task-level utility. My work studies how communication policies can be designed according to inference deadlines, information value, and the requirements of downstream sensing or decision tasks.
 
-### Information freshness and Age of Information
+### Age of Information and timeliness-aware networking
 
-Age of Information provides a system-level metric for measuring the freshness of received status updates. My work studies freshness-aware communication and resource allocation, especially when updates have heterogeneous deadlines, task relevance, and sensing or computation requirements.
+Age of Information provides a system-level view of information freshness. I study how AoI and related timeliness metrics can guide scheduling and resource allocation when updates have heterogeneous deadlines, reliability requirements, and task importance.
 
 ### Integrated sensing, communication, and computation
 
-Future wireless networks are expected to jointly support data transmission, environmental sensing, and edge intelligence. I am interested in the design of integrated frameworks that coordinate these functions under shared spectrum, power, and computation budgets.
+6G systems are expected to support communication, sensing, and edge intelligence over shared resources. I am interested in integrated frameworks that coordinate spectrum, power, computation, and sensing requirements, especially in systems where information freshness affects task performance.
 
-### NOMA and resource allocation for 6G networks
+### NOMA and multicast/unicast coexistence
 
-Non-orthogonal multiple access and multicast/unicast coexistence can improve spectrum efficiency, but they also introduce challenges in interference management, decoding order, beamforming, and power allocation. My research explores optimization and learning-based methods for these coupled design problems.
+Non-orthogonal multiple access and multicast/unicast transmission can improve spectrum efficiency, but they also create coupled design problems involving beamforming, decoding order, interference management, and power allocation. My work explores optimization and learning-based approaches for these systems.
 
 ## Application areas
 
@@ -28,7 +51,8 @@ Non-orthogonal multiple access and multicast/unicast coexistence can improve spe
 - Edge intelligence and mobile inference
 - Integrated sensing and communication
 - Freshness-aware scheduling and control
-- Semantic/task-oriented wireless systems
+- Semantic and task-oriented wireless systems
+- Learning-based wireless resource allocation
 
 ## Keywords
 
