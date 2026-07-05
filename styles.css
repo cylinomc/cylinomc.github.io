@@ -1,0 +1,67 @@
+/* Academic homepage styling */
+
+:root {
+  --content-width: 920px;
+}
+
+body {
+  line-height: 1.65;
+}
+
+.navbar-title {
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+main.content {
+  max-width: var(--content-width);
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.015em;
+}
+
+h1.title {
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1.05rem;
+}
+
+.profile-header {
+  margin-top: 1.4rem;
+  margin-bottom: 2.2rem;
+  padding: 1.4rem 1.6rem;
+  border-left: 4px solid #2f5f9f;
+  background: #f7f9fc;
+  border-radius: 0.35rem;
+}
+
+.profile-text p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote {
+  border-left: 4px solid #d8dee9;
+  color: #3d3d3d;
+}
+
+.table {
+  font-size: 0.95rem;
+}
+
+.page-footer {
+  font-size: 0.9rem;
+}
+
+/* Keep link presentation simple and professional. */
+a {
+  text-underline-offset: 0.18em;
+}
+
+/* Better spacing for dense academic lists. */
+li + li {
+  margin-top: 0.15rem;
+}
