@@ -1,6 +1,4 @@
 ---
-title: "Chih-Yu Lin"
-subtitle: "Freshness-aware and task-oriented wireless systems for 6G networks"
 page-layout: full
 ---
 
