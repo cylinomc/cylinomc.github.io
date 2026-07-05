@@ -1,0 +1,28 @@
+---
+title: "Teaching"
+---
+
+<!-- TODO: Add confirmed teaching assistantships, lectures, guest talks, course websites, and teaching materials. -->
+
+## Teaching interests
+
+I am interested in teaching courses related to wireless communications, communication networks, signal processing, optimization, machine learning for communications, probability, and algorithms.
+
+Potential course areas include:
+
+- Wireless communications
+- Communication networks
+- 5G/6G mobile networks
+- Integrated sensing and communication
+- Optimization for communication systems
+- Machine learning for wireless networks
+- Probability and stochastic processes
+- Data structures and algorithms
+
+## Teaching experience
+
+To be added.
+
+## Teaching materials
+
+To be added.
