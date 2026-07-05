@@ -1,7 +1,11 @@
 /* Academic homepage styling */
 
 :root {
-  --content-width: 920px;
+  --content-width: 980px;
+  --wide-content-width: 1120px;
+  --soft-bg: #f6f9fb;
+  --card-border: #dbe5ec;
+  --ink-soft: #5b6770;
 }
 
 body {
@@ -9,7 +13,7 @@ body {
 }
 
 .navbar-title {
-  font-weight: 650;
+  font-weight: 700;
   letter-spacing: 0.01em;
 }
 
@@ -18,7 +22,7 @@ main.content {
 }
 
 h1, h2, h3 {
-  letter-spacing: -0.015em;
+  letter-spacing: -0.02em;
 }
 
 h1.title {
@@ -30,17 +34,164 @@ h1.title {
   font-size: 1.05rem;
 }
 
-.profile-header {
-  margin-top: 1.4rem;
-  margin-bottom: 2.2rem;
-  padding: 1.4rem 1.6rem;
-  border-left: 4px solid #2f5f9f;
-  background: #f7f9fc;
-  border-radius: 0.35rem;
+a {
+  text-underline-offset: 0.18em;
 }
 
-.profile-text p:last-child {
-  margin-bottom: 0;
+li + li {
+  margin-top: 0.15rem;
+}
+
+/* Homepage hero */
+
+.hero {
+  max-width: var(--wide-content-width);
+  margin: 1.5rem auto 3rem auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(280px, 0.9fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.hero-text {
+  padding: 2.5rem 0;
+}
+
+.hero-text h1 {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.05;
+  margin-bottom: 0.7rem;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  margin-bottom: 1.35rem;
+  font-weight: 500;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.4rem;
+}
+
+.hero-card {
+  border: 1px solid var(--card-border);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  background: #ffffff;
+  box-shadow: 0 12px 28px rgba(44, 62, 80, 0.08);
+}
+
+.profile-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 0.8rem;
+  background: linear-gradient(135deg, #eaf1f5, #f8fafc);
+  border: 1px dashed #b7c7d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7a8994;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.1rem;
+}
+
+.vision-grid,
+.highlight-grid,
+.research-grid,
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem 0;
+}
+
+.course-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.vision-card,
+.highlight-card,
+.research-card,
+.course-card {
+  border: 1px solid var(--card-border);
+  border-radius: 0.8rem;
+  padding: 1rem 1.1rem;
+  background: #ffffff;
+}
+
+.vision-card h3,
+.highlight-card h3,
+.research-card h3,
+.course-card h3 {
+  font-size: 1.05rem;
+  margin-top: 0;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.tag-list span {
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #c9d7e2;
+  border-radius: 999px;
+  background: var(--soft-bg);
+  font-size: 0.92rem;
+  color: #34495e;
+}
+
+/* CV timeline */
+
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.2rem 0 2rem 0;
+}
+
+.timeline {
+  margin: 1.25rem 0 2.25rem 0;
+  border-left: 3px solid #d6e1e8;
+  padding-left: 1.1rem;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 1.2rem;
+  margin-bottom: 1.6rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.55rem;
+  top: 0.35rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #2c3e50;
+  border: 2px solid #ffffff;
+}
+
+.timeline-date {
+  font-weight: 700;
+  color: #34495e;
+}
+
+.timeline-content {
+  color: #343a40;
 }
 
 blockquote {
@@ -56,12 +207,24 @@ blockquote {
   font-size: 0.9rem;
 }
 
-/* Keep link presentation simple and professional. */
-a {
-  text-underline-offset: 0.18em;
-}
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
 
-/* Better spacing for dense academic lists. */
-li + li {
-  margin-top: 0.15rem;
+  .hero-text {
+    padding-bottom: 0;
+  }
+
+  .vision-grid,
+  .highlight-grid,
+  .research-grid,
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
 }
