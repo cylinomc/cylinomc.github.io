@@ -7,16 +7,18 @@ title: "Contact"
 ## Contact information
 
 - Email: to be added
-- Affiliation: to be added
-- Location: to be added
+- Current affiliation: University of Oulu, Finland / National Taiwan University, Taiwan
+- Location: Oulu, Finland and Taipei, Taiwan
 
 ## Profiles
 
+- [Google Scholar](https://scholar.google.com/citations?user=NSj-LLQAAAAJ&hl=en)
+- [LinkedIn](https://www.linkedin.com/in/chih-yu-lin-287948113/)
 - [GitHub](https://github.com/dululu29)
-- Google Scholar: to be added
 - ORCID: to be added
-- LinkedIn: to be added
 
 ## For prospective collaboration
 
 I am interested in research discussions related to wireless communications, task-oriented semantic communication, information freshness, integrated sensing and communication, vehicular networks, and learning-based resource allocation.
+
+For faculty applications, research collaboration, or academic correspondence, please contact me through the public email address listed above once it is added.
