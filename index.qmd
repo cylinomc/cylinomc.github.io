@@ -1,40 +1,101 @@
 ---
 title: "Chih-Yu Lin"
-subtitle: "Wireless Communications · 6G Networks · Task-Oriented Semantic Communication"
+subtitle: "Freshness-aware and task-oriented wireless systems for 6G networks"
+page-layout: full
 ---
 
-<!-- TODO: Confirm English display name, affiliation, public email, and profile links before publishing. -->
+::: {.hero}
+::: {.hero-text}
+# Chih-Yu Lin
 
-::: {.profile-header}
-::: {.profile-text}
-I am a researcher working on wireless communications and networking, with a focus on task-oriented semantic communication, integrated sensing and communication, Age of Information, NOMA, vehicular networks, and learning-based resource allocation.
+::: {.hero-subtitle}
+Ph.D. Candidate, National Taiwan University  
+Visiting Researcher, University of Oulu
+:::
 
-My research aims to design communication-efficient, freshness-aware, and task-aware wireless systems for emerging 6G applications, where communication decisions are optimized according to the timeliness and utility of downstream tasks.
+I design wireless communication systems that are aware of **timeliness**, **task utility**, and **resource constraints**. My research focuses on 6G wireless networks, task-oriented semantic communication, integrated sensing and communication, Age of Information, NOMA, vehicular networks, and learning-based resource allocation.
+
+For faculty applications, this website summarizes my research vision, publications, teaching interests, and professional experience.
+
+::: {.button-row}
+[Research](research.qmd){.btn .btn-primary}
+[Publications](publications.qmd){.btn .btn-outline-primary}
+[CV](cv.qmd){.btn .btn-outline-secondary}
 :::
 :::
 
-## Research interests
+::: {.hero-card}
+::: {.profile-placeholder}
+Photo
+:::
 
-- Task-oriented and semantic communications
-- Integrated sensing, communication, and computation for 6G systems
-- Age of Information and information freshness
-- NOMA, multicast/unicast coexistence, and resource allocation
-- Vehicular networks, C-V2X, and edge intelligence
-- Learning-based optimization for wireless networks
+**Current position**  
+Visiting Researcher, University of Oulu, Finland  
+6G Flagship, Centre for Wireless Communications
 
-## Recent focus
+**Doctoral program**  
+Ph.D. Candidate, Department of Electrical Engineering, National Taiwan University  
+Expected graduation: 2027
 
-My recent work studies how wireless systems can jointly account for communication reliability, sensing requirements, computational constraints, and task deadlines. Instead of optimizing only throughput or latency, I am interested in freshness-aware and task-aware metrics that better capture the value of delivered information.
+**Profiles**  
+[Google Scholar](https://scholar.google.com/citations?user=NSj-LLQAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/chih-yu-lin-287948113/) · [GitHub](https://github.com/dululu29)
+:::
+:::
+
+## Research vision
+
+Future wireless networks will not only deliver bits. They will support sensing, inference, control, and decision-making under strict timeliness and resource constraints. My research develops communication and resource allocation frameworks that answer three connected questions:
+
+::: {.vision-grid}
+::: {.vision-card}
+### What should be transmitted?
+Task-oriented semantic communication prioritizes information according to its usefulness for downstream tasks, rather than only reconstructing raw data.
+:::
+
+::: {.vision-card}
+### When should information be updated?
+Age of Information and deadline-aware metrics capture whether received information is still timely and valuable for the task.
+:::
+
+::: {.vision-card}
+### How should wireless resources be shared?
+NOMA, multicast/unicast coexistence, sensing, and learning-based optimization provide tools for coordinating spectrum, power, computation, and task requirements.
+:::
+:::
+
+## Research areas
+
+::: {.tag-list}
+<span>6G Wireless Networks</span>
+<span>Task-Oriented Semantic Communication</span>
+<span>Age of Information</span>
+<span>Integrated Sensing and Communication</span>
+<span>NOMA</span>
+<span>C-V2X</span>
+<span>Edge Intelligence</span>
+<span>Resource Allocation</span>
+:::
+
+## Selected highlights
+
+::: {.highlight-grid}
+::: {.highlight-card}
+### Academic trajectory
+Ph.D. Candidate at National Taiwan University, with visiting research experience at the University of Oulu, Finland, under the Chollima program.
+:::
+
+::: {.highlight-card}
+### Industry background
+Prior engineering experience at TSMC and ASMedia, with background in semiconductor design workflows and high-speed USB4 IP solutions.
+:::
+
+::: {.highlight-card}
+### Teaching potential
+Prepared to teach wireless communications, communication networks, 5G/6G mobile networks, optimization, probability, and machine learning for wireless systems.
+:::
+:::
 
 ## News
 
-<!-- Keep this section short. Add only public, professional updates. -->
-
-- **2026** — Website draft created.
-
-## Selected links
-
-- [GitHub](https://github.com/dululu29)
-- Google Scholar: to be added
-- ORCID: to be added
-- CV: to be added
+- **2026** — Visiting Researcher at the University of Oulu, Finland.
+- **2026** — Academic homepage draft redesigned for faculty applications.
