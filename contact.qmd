@@ -1,0 +1,22 @@
+---
+title: "Contact"
+---
+
+<!-- TODO: Add only public contact information before publishing. -->
+
+## Contact information
+
+- Email: to be added
+- Affiliation: to be added
+- Location: to be added
+
+## Profiles
+
+- [GitHub](https://github.com/dululu29)
+- Google Scholar: to be added
+- ORCID: to be added
+- LinkedIn: to be added
+
+## For prospective collaboration
+
+I am interested in research discussions related to wireless communications, task-oriented semantic communication, information freshness, integrated sensing and communication, vehicular networks, and learning-based resource allocation.
