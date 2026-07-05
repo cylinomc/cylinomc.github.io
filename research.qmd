@@ -1,0 +1,35 @@
+---
+title: "Research"
+---
+
+My research centers on wireless communications and networking for emerging 6G systems. I am particularly interested in systems where communication is not an end in itself, but a means to support timely sensing, inference, control, and decision-making tasks.
+
+## Research themes
+
+### Task-oriented semantic communication
+
+Task-oriented semantic communication aims to transmit information according to its usefulness for downstream tasks rather than reconstructing raw data perfectly. This perspective is especially important for wireless systems that support sensing, inference, and control under tight latency and resource constraints.
+
+### Information freshness and Age of Information
+
+Age of Information provides a system-level metric for measuring the freshness of received status updates. My work studies freshness-aware communication and resource allocation, especially when updates have heterogeneous deadlines, task relevance, and sensing or computation requirements.
+
+### Integrated sensing, communication, and computation
+
+Future wireless networks are expected to jointly support data transmission, environmental sensing, and edge intelligence. I am interested in the design of integrated frameworks that coordinate these functions under shared spectrum, power, and computation budgets.
+
+### NOMA and resource allocation for 6G networks
+
+Non-orthogonal multiple access and multicast/unicast coexistence can improve spectrum efficiency, but they also introduce challenges in interference management, decoding order, beamforming, and power allocation. My research explores optimization and learning-based methods for these coupled design problems.
+
+## Application areas
+
+- Vehicular networks and C-V2X
+- Edge intelligence and mobile inference
+- Integrated sensing and communication
+- Freshness-aware scheduling and control
+- Semantic/task-oriented wireless systems
+
+## Keywords
+
+6G, wireless communications, semantic communication, task-oriented communication, Age of Information, NOMA, ISAC, ISCC, C-V2X, edge intelligence, resource allocation, reinforcement learning.
