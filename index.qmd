@@ -1,0 +1,40 @@
+---
+title: "Chih-Yu Lin"
+subtitle: "Wireless Communications · 6G Networks · Task-Oriented Semantic Communication"
+---
+
+<!-- TODO: Confirm English display name, affiliation, public email, and profile links before publishing. -->
+
+::: {.profile-header}
+::: {.profile-text}
+I am a researcher working on wireless communications and networking, with a focus on task-oriented semantic communication, integrated sensing and communication, Age of Information, NOMA, vehicular networks, and learning-based resource allocation.
+
+My research aims to design communication-efficient, freshness-aware, and task-aware wireless systems for emerging 6G applications, where communication decisions are optimized according to the timeliness and utility of downstream tasks.
+:::
+:::
+
+## Research interests
+
+- Task-oriented and semantic communications
+- Integrated sensing, communication, and computation for 6G systems
+- Age of Information and information freshness
+- NOMA, multicast/unicast coexistence, and resource allocation
+- Vehicular networks, C-V2X, and edge intelligence
+- Learning-based optimization for wireless networks
+
+## Recent focus
+
+My recent work studies how wireless systems can jointly account for communication reliability, sensing requirements, computational constraints, and task deadlines. Instead of optimizing only throughput or latency, I am interested in freshness-aware and task-aware metrics that better capture the value of delivered information.
+
+## News
+
+<!-- Keep this section short. Add only public, professional updates. -->
+
+- **2026** — Website draft created.
+
+## Selected links
+
+- [GitHub](https://github.com/dululu29)
+- Google Scholar: to be added
+- ORCID: to be added
+- CV: to be added
