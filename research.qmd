@@ -4,29 +4,6 @@ title: "Research"
 
 My research goal is to build wireless systems that communicate according to the needs of downstream tasks. In emerging 6G networks, users, vehicles, sensors, and edge intelligence modules will exchange information not only for connectivity, but also for sensing, inference, and real-time decision making. This requires communication protocols and resource allocation methods that account for timeliness, task utility, reliability, and computation constraints.
 
-## Research vision
-
-I am interested in **freshness-aware and task-oriented wireless intelligence**. Instead of optimizing a single physical-layer metric, my work studies how wireless systems can decide what information is useful, when it should be updated, and how limited wireless resources should be allocated across communication, sensing, and computation tasks.
-
-This vision connects three directions:
-
-::: {.research-grid}
-::: {.research-card}
-### Semantic and task-oriented communication
-Designing communication strategies that preserve task-relevant information and reduce unnecessary transmission overhead.
-:::
-
-::: {.research-card}
-### Information freshness
-Using Age of Information and deadline-aware metrics to characterize when delivered information remains useful.
-:::
-
-::: {.research-card}
-### Integrated 6G resource allocation
-Jointly considering communication, sensing, computation, beamforming, power control, scheduling, and learning-based optimization.
-:::
-:::
-
 ## Current research themes
 
 ### Task-oriented semantic communication
@@ -53,7 +30,3 @@ Non-orthogonal multiple access and multicast/unicast transmission can improve sp
 - Freshness-aware scheduling and control
 - Semantic and task-oriented wireless systems
 - Learning-based wireless resource allocation
-
-## Keywords
-
-6G, wireless communications, semantic communication, task-oriented communication, Age of Information, NOMA, ISAC, ISCC, C-V2X, edge intelligence, resource allocation, reinforcement learning.

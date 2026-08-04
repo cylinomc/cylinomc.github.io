@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "!teaching.qmd"
 
 website:
   title: "Chih-Yu Lin"
@@ -14,8 +17,6 @@ website:
         text: Research
       - href: publications.qmd
         text: Publications
-      - href: teaching.qmd
-        text: Teaching
       - href: cv.qmd
         text: CV
       - href: contact.qmd
@@ -41,9 +42,13 @@ format:
   html:
     theme: flatly
     css: styles.css
-    toc: true
-    toc-depth: 3
+    toc: false
     code-copy: true
+    grid:
+      sidebar-width: 0px
+      body-width: 900px
+      margin-width: 0px
+      gutter-width: 1.5rem
 
 execute:
   freeze: auto

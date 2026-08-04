@@ -2,11 +2,9 @@
 title: "Contact"
 ---
 
-<!-- TODO: Add only public contact information before publishing. -->
-
 ## Contact information
 
-- Email: to be added
+- Email: [d09921030@ntu.edu.tw](mailto:d09921030@ntu.edu.tw) · [cylinomc@gmail.com](mailto:cylinomc@gmail.com)
 - Current affiliation: University of Oulu, Finland / National Taiwan University, Taiwan
 - Location: Oulu, Finland and Taipei, Taiwan
 
@@ -19,6 +17,4 @@ title: "Contact"
 
 ## For prospective collaboration
 
-I am interested in research discussions related to wireless communications, task-oriented semantic communication, information freshness, integrated sensing and communication, vehicular networks, and learning-based resource allocation.
-
-For faculty applications, research collaboration, or academic correspondence, please contact me through the public email address listed above once it is added.
+I welcome research discussions and academic correspondence related to wireless communications and networking. Please reach out by email or through the profiles above.

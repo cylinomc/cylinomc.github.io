@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-My teaching interests align with wireless communications, communication networks, signal processing, optimization, and machine learning for communication systems. For faculty applications, I would like this page to present both course readiness and a coherent teaching philosophy.
+My teaching interests align with wireless communications, communication networks, signal processing, optimization, and machine learning for communication systems.
 
 ## Teaching philosophy
 
@@ -32,12 +32,4 @@ Machine Learning for Wireless Networks, Reinforcement Learning, Data Structures,
 :::
 :::
 
-## Teaching experience
-
-To be added.
-
-<!-- Suggested items: teaching assistantships, guest lectures, invited tutorials, course projects, supervised students, and teaching materials. -->
-
-## Teaching materials
-
-To be added.
+<!-- TODO: add "Teaching experience" and "Teaching materials" sections when there is content to list (teaching assistantships, guest lectures, invited tutorials, supervised students). -->

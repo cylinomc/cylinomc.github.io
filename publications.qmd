@@ -6,28 +6,18 @@ For the most up-to-date publication record, please see my [Google Scholar profil
 
 <!-- TODO before publishing: add DOI, IEEE Xplore, arXiv, PDF, code, and project links where available. Confirm official author spelling and venue formatting against the final CV. -->
 
-## Selected publications
-
-1. **C.-Y. Lin** and W. Liao, “AoI-Aware Interference Mitigation for Task-Oriented Multicasting in Multi-Cell NOMA Networks,” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 11341–11356, Sep. 2024.
-
 ## Journal papers
 
 1. **C.-Y. Lin** and W. Liao, “AoI-Aware Interference Mitigation for Task-Oriented Multicasting in Multi-Cell NOMA Networks,” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 11341–11356, Sep. 2024.
 
 ## Conference papers
 
-1. **C.-Y. Lin** and W. Liao, “Energy-aware Age of Information (AoI) Minimization for Internet of Things in NOMA-based LEO Satellite Networks,” in *Proc. IEEE Vehicular Technology Conference (VTC2024-Spring)*, pp. 1–5, Jun. 2024.
+1. Hung-Jui Chen, **Chih-Yu Lin**, Hung-Yeh Chen, and Wanjiun Liao, “Information-Rich Predictive Beamforming in Multi-RSU Systems via Joint Monostatic and Bistatic Sensing,” accepted for publication in *Proc. IEEE GLOBECOM*, Dec. 2026.
 
-2. C. C. Chung, **C.-Y. Lin**, and J. Z. Yang, “Time-domain characteristics of body channel communication (BCC) and BCC transceiver design,” in *Proc. VLSI Design, Automation and Test (VLSI-DAT)*, pp. 1–4, 2016.
+2. **C.-Y. Lin** and W. Liao, “Energy-aware Age of Information (AoI) Minimization for Internet of Things in NOMA-based LEO Satellite Networks,” in *Proc. IEEE Vehicular Technology Conference (VTC2024-Spring)*, pp. 1–5, Jun. 2024.
 
-3. C. C. Chung, C. T. Chang, and **C.-Y. Lin**, “A 1 Mb/s–40 Mb/s human body channel communication transceiver,” in *Proc. VLSI Design, Automation and Test (VLSI-DAT)*, pp. 1–4, 2015.
+3. C. C. Chung, **C.-Y. Lin**, and J. Z. Yang, “Time-domain characteristics of body channel communication (BCC) and BCC transceiver design,” in *Proc. VLSI Design, Automation and Test (VLSI-DAT)*, pp. 1–4, 2016.
 
-## Manuscripts and preprints
+4. C. C. Chung, C. T. Chang, and **C.-Y. Lin**, “A 1 Mb/s–40 Mb/s human body channel communication transceiver,” in *Proc. VLSI Design, Automation and Test (VLSI-DAT)*, pp. 1–4, 2015.
 
-To be added.
-
-## Research artifacts
-
-- Code repositories: to be added
-- Slides or posters: to be added
-- Datasets: to be added, if public
+<!-- TODO: add "Manuscripts and preprints" and "Research artifacts" sections when there is content to list. -->
