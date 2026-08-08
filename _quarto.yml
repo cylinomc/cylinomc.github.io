@@ -1,10 +1,16 @@
 project:
   type: website
   output-dir: _site
+  # Site is temporarily held back for content review. Only the holding page is
+  # published; every real page stays in the repo, unrendered.
+  # To restore: replace this list with the four commented lines below, delete
+  # the holding index.qmd, and `git mv index-draft.qmd index.qmd`.
   render:
-    - "*.qmd"
-    - "!teaching.qmd"
-    - "!cv.qmd"
+    - "index.qmd"
+  # render:
+  #   - "*.qmd"
+  #   - "!teaching.qmd"
+  #   - "!cv.qmd"
 
 website:
   title: "Chih-Yu Lin"
@@ -14,25 +20,27 @@ website:
   image: images/ChihYu.jpg
   open-graph: true
   twitter-card: true
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
-      - href: contact.qmd
-        text: Contact
-    right:
-      - icon: github
-        href: https://github.com/dululu29
-        aria-label: GitHub
-      - icon: linkedin
-        href: https://www.linkedin.com/in/chih-yu-lin-287948113/
-        aria-label: LinkedIn
-  page-footer:
-    left: "© 2026 Chih-Yu Lin"
+  # Navbar and footer are suppressed while the holding page is up; restore the
+  # block below together with the render list above.
+  # navbar:
+  #   left:
+  #     - href: index.qmd
+  #       text: Home
+  #     - href: research.qmd
+  #       text: Research
+  #     - href: publications.qmd
+  #       text: Publications
+  #     - href: contact.qmd
+  #       text: Contact
+  #   right:
+  #     - icon: github
+  #       href: https://github.com/dululu29
+  #       aria-label: GitHub
+  #     - icon: linkedin
+  #       href: https://www.linkedin.com/in/chih-yu-lin-287948113/
+  #       aria-label: LinkedIn
+  # page-footer:
+  #   left: "© 2026 Chih-Yu Lin"
 
 format:
   html:

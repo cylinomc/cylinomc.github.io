@@ -133,6 +133,24 @@ main.content li + li {
   margin-top: 0.15rem;
 }
 
+/* Temporary holding page */
+
+.holding {
+  max-width: 34rem;
+  margin: 18vh auto 0;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.holding h1 {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  margin-bottom: 0.6rem;
+}
+
+.holding p {
+  color: var(--ink-soft);
+}
+
 /* Homepage hero */
 
 .hero {
