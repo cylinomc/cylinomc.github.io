@@ -4,9 +4,8 @@ title: "Contact"
 
 ## Contact information
 
-- Email: [d09921030@ntu.edu.tw](mailto:d09921030@ntu.edu.tw) · [cylinomc@gmail.com](mailto:cylinomc@gmail.com)
-- Current affiliation: University of Oulu, Finland / National Taiwan University, Taiwan
-- Location: Oulu, Finland and Taipei, Taiwan
+- Email: [d09921030@ntu.edu.tw](mailto:d09921030@ntu.edu.tw) (academic correspondence) · [cylinomc@gmail.com](mailto:cylinomc@gmail.com) (general inquiries)
+- Affiliation: National Taiwan University, Taipei, Taiwan — currently visiting the University of Oulu, Finland
 
 ## Profiles
 
@@ -17,4 +16,4 @@ title: "Contact"
 
 ## For prospective collaboration
 
-I welcome research discussions and academic correspondence related to wireless communications and networking. Please reach out by email or through the profiles above.
+I welcome research discussions and academic correspondence related to wireless communications and networking — particularly on freshness- and task-aware networking, ISAC and vehicular systems, and learning-based resource allocation for 6G networks. Please reach out by email or through the profiles above.
