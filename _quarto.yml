@@ -4,11 +4,12 @@ project:
   render:
     - "*.qmd"
     - "!teaching.qmd"
+    - "!cv.qmd"
 
 website:
   title: "Chih-Yu Lin"
   site-url: "https://dululu29.github.io"
-  description: "Academic homepage of Chih-Yu Lin — wireless communications, 6G networks, task-oriented semantic communication, and information freshness."
+  description: "Academic homepage of Chih-Yu Lin — learning-based resource allocation, information freshness, ISAC/ISCC, NOMA, satellite communications, and vehicular networks."
   navbar:
     left:
       - href: index.qmd
@@ -17,8 +18,6 @@ website:
         text: Research
       - href: publications.qmd
         text: Publications
-      - href: cv.qmd
-        text: CV
       - href: contact.qmd
         text: Contact
     right:
@@ -30,18 +29,12 @@ website:
         aria-label: LinkedIn
   page-footer:
     left: "© 2026 Chih-Yu Lin"
-    right:
-      - text: "Google Scholar"
-        href: https://scholar.google.com/citations?user=NSj-LLQAAAAJ&hl=en
-      - text: "LinkedIn"
-        href: https://www.linkedin.com/in/chih-yu-lin-287948113/
-      - text: "GitHub"
-        href: https://github.com/dululu29
 
 format:
   html:
     theme: flatly
     css: styles.css
+    include-after-body: _includes/cloudflare-analytics.html
     toc: false
     code-copy: true
     grid:

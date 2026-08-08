@@ -1,0 +1,13 @@
+<!-- Cloudflare Web Analytics: load only on the production GitHub Pages hostname. -->
+<script>
+  (() => {
+    if (window.location.hostname !== "dululu29.github.io") return;
+
+    const beacon = document.createElement("script");
+    beacon.type = "module";
+    beacon.src = "https://static.cloudflareinsights.com/beacon.min.js";
+    beacon.dataset.cfBeacon = '{"token":"2f57a3953f5b4a5eb063fa7989573a96"}';
+    document.body.appendChild(beacon);
+  })();
+</script>
+<!-- End Cloudflare Web Analytics -->

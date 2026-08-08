@@ -2,47 +2,46 @@
 page-layout: full
 ---
 
+::: {.news-strip}
+::: {.news-label}
+News
+:::
+
+::: {.news-list}
+::: {.news-item}
+<strong>Aug 2026</strong><span>🎉 The paper <strong class="paper-title">“AoI Minimization for Task-Oriented ISCC Networks with NOMA-Assisted Multicast-Unicast Transmissions”</strong> has been accepted for publication in <em>IEEE Transactions on Mobile Computing</em>.</span>
+:::
+
+::: {.news-item}
+<strong>Aug 2026</strong><span>🎉 The paper <strong class="paper-title">“Information-Rich Predictive Beamforming in Multi-RSU Systems via Joint Monostatic and Bistatic Sensing”</strong> has been accepted at <em>IEEE GLOBECOM 2026</em>.</span>
+:::
+
+::: {.news-item}
+<strong>Feb 2026</strong><span>Visiting Researcher at the University of Oulu, Finland (Chollima program), hosted by Prof. Mehdi Bennis at the 6G Flagship.</span>
+:::
+:::
+:::
+
 ::: {.hero}
 ::: {.hero-text}
 # Chih-Yu Lin
 
 ::: {.hero-subtitle}
-Ph.D. Candidate, National Taiwan University  
+Ph.D. Candidate, National Taiwan University<br>
 Visiting Researcher, University of Oulu
-:::
-
-I design wireless communication systems that are aware of **timeliness**, **task utility**, and **resource constraints**. My research focuses on 6G wireless networks, task-oriented semantic communication, integrated sensing and communication, Age of Information, NOMA, vehicular networks, and learning-based resource allocation.
-
-::: {.button-row}
-[Research](research.qmd){.btn .btn-primary}
-[Publications](publications.qmd){.btn .btn-outline-primary}
-[CV](cv.qmd){.btn .btn-outline-secondary}
-:::
-:::
-
-::: {.hero-card}
-::: {.profile-placeholder}
-Photo
-:::
-
-**Currently visiting**\
-6G Flagship, Centre for Wireless Communications\
-University of Oulu, Finland
-
-**Expected graduation**\
-2027, National Taiwan University
-:::
 :::
 
 ## Research vision
 
-Future wireless networks will not only deliver bits. They will support sensing, inference, control, and decision-making under strict timeliness and resource constraints. My research asks three connected questions: *what* should be transmitted, *when* should information be updated, and *how* should wireless resources be shared. See [Research](research.qmd) for details.
+Future wireless networks will not only deliver bits. They will support sensing, inference, control, and decision-making under strict timeliness and resource constraints. My research asks three connected questions: *what* information a task needs, *when* that information should be refreshed, and *how* limited wireless resources should be shared. See [Research](research.qmd) for project details.
 
-## Research areas
+## Research focus
+
+I develop **learning-based resource allocation** methods for next-generation wireless systems, with an emphasis on information freshness, reliability, and efficient use of radio, sensing, computing, and energy resources. My work spans terrestrial NOMA networks, LEO satellite communications, vehicular ISAC/ISCC, and cooperative multi-RSU sensing.
 
 ::: {.tag-list}
 <span>6G Wireless Networks</span>
-<span>Task-Oriented Semantic Communication</span>
+<span>Task-Oriented Wireless Systems</span>
 <span>Age of Information</span>
 <span>Integrated Sensing and Communication</span>
 <span>NOMA</span>
@@ -50,12 +49,19 @@ Future wireless networks will not only deliver bits. They will support sensing, 
 <span>Edge Intelligence</span>
 <span>Resource Allocation</span>
 :::
+:::
+
+::: {.hero-card}
+::: {.profile-placeholder}
+<img class="profile-photo" src="images/ChihYu.jpg" alt="Portrait of Chih-Yu Lin">
+:::
+
+**Currently visiting**\
+6G Flagship, Centre for Wireless Communications\
+University of Oulu, Finland
+:::
+:::
 
 ## Background
 
-Before my Ph.D., I worked as an engineer at TSMC and ASMedia, on semiconductor design workflows and high-speed USB4 IP solutions. This industry experience shapes how I approach wireless systems research: with attention to implementation constraints, not only theoretical performance. My full trajectory is on the [CV](cv.qmd) page.
-
-## News
-
-- **2026** — Visiting Researcher at the University of Oulu, Finland (Chollima program), hosted by Prof. Mehdi Bennis at the 6G Flagship.
-- **2026** — Paper accepted at IEEE GLOBECOM 2026 on predictive beamforming in multi-RSU systems.
+Before my Ph.D., I worked as an engineer at TSMC and ASMedia, on semiconductor design workflows and high-speed USB4 IP solutions. This industry experience shapes how I approach wireless systems research: with attention to implementation constraints, not only theoretical performance.

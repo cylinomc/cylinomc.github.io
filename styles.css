@@ -22,6 +22,10 @@ body {
   letter-spacing: 0.01em;
 }
 
+.navbar .navbar-brand-container {
+  display: none;
+}
+
 /* Align the navbar with the body content column */
 
 .navbar > .navbar-container.container-fluid {
@@ -62,7 +66,9 @@ body {
 }
 
 main.content {
+  width: 100%;
   max-width: var(--content-width);
+  min-width: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -129,16 +135,72 @@ main.content li + li {
 
 /* Homepage hero */
 
-.hero {
-  margin: 1.5rem 0 3rem 0;
+.news-strip {
   display: grid;
-  grid-template-columns: minmax(0, 1.9fr) minmax(260px, 0.8fr);
-  gap: 2.5rem;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 1.15rem;
+  align-items: start;
+  margin: 1.25rem 0 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid #d8e3de;
+  border-radius: 0.55rem;
+  background: #f3f7f5;
+  color: #344740;
+  font-size: 0.9rem;
+}
+
+.news-label {
+  padding-top: 0.05rem;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.news-list {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.news-item {
+  display: block;
+}
+
+.news-item p {
+  display: grid;
+  grid-template-columns: 5.15rem minmax(0, 1fr);
+  gap: 0.7rem;
+  align-items: baseline;
+  margin: 0;
+}
+
+.news-item + .news-item {
+  padding-top: 0.45rem;
+  border-top: 1px solid #dce6e1;
+}
+
+.news-item p > strong:first-child {
+  color: var(--accent-dark);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.news-item .paper-title {
+  color: inherit;
+  font-weight: 700;
+  white-space: normal;
+}
+
+.hero {
+  margin: 1.15rem 0 2.1rem 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(250px, 0.75fr);
+  gap: clamp(1.8rem, 4vw, 3rem);
   align-items: start;
 }
 
 .hero-text {
-  padding: 2rem 0;
+  padding: 0.55rem 0 0;
 }
 
 .hero-text h1 {
@@ -150,8 +212,22 @@ main.content li + li {
 .hero-subtitle {
   font-size: 1.1rem;
   color: var(--ink-soft);
-  margin-bottom: 1.35rem;
+  margin-bottom: 1.55rem;
   font-weight: 500;
+}
+
+.hero-text h2 {
+  margin-top: 1.45rem;
+  margin-bottom: 0.45rem;
+  font-size: clamp(1.4rem, 2.5vw, 1.75rem);
+}
+
+.hero-text h2:first-of-type {
+  margin-top: 0;
+}
+
+.hero-text p {
+  margin-top: 0;
 }
 
 .button-row {
@@ -167,7 +243,7 @@ main.content li + li {
   padding: 1.25rem;
   background: #ffffff;
   font-size: 0.95rem;
-  margin-top: 2rem;
+  margin-top: 0.75rem;
 }
 
 .profile-placeholder {
@@ -184,6 +260,27 @@ main.content li + li {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin-bottom: 1.1rem;
+  overflow: hidden;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Quarto wraps raw images in a paragraph; make that wrapper fill the crop box. */
+
+.profile-placeholder p {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.profile-placeholder figcaption {
+  display: none;
 }
 
 /* Teaching course grid */
@@ -211,7 +308,7 @@ main.content li + li {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
-  margin: 1rem 0 2rem 0;
+  margin: 0.9rem 0 0;
 }
 
 .tag-list span {
@@ -224,7 +321,139 @@ main.content li + li {
   white-space: nowrap;
 }
 
+/* Research papers */
+
+.paper-project {
+  margin: 1rem 0 2.4rem;
+  padding: clamp(1.15rem, 3vw, 1.65rem);
+  border: 1px solid var(--card-border);
+  border-radius: 0.8rem;
+  background: #ffffff;
+}
+
+.paper-project h2 {
+  margin: 0.3rem 0 1.1rem;
+  font-size: clamp(1.45rem, 2.7vw, 1.85rem);
+  line-height: 1.25;
+}
+
+.paper-meta {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+.paper-figure {
+  display: flex;
+  justify-content: center;
+  margin: 1.25rem 0 1.45rem;
+  padding: 1rem;
+  border: 1px solid #ecece7;
+  border-radius: 0.55rem;
+  background: #fbfbf9;
+}
+
+.paper-figure p {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.paper-figure img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 620px;
+  margin: auto;
+}
+
+.paper-figure-narrow img {
+  width: 100%;
+  max-width: 620px;
+}
+
+.paper-figure-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: center;
+}
+
+.paper-figure-pair p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.figure-placeholder {
+  margin: 1.25rem 0 1.45rem;
+  padding: clamp(1.5rem, 5vw, 3rem) 1rem;
+  border: 1px dashed #b8c8c1;
+  border-radius: 0.55rem;
+  background: #f6f8f7;
+  color: #5a6963;
+  text-align: center;
+}
+
+.figure-placeholder p {
+  margin: 0;
+}
+
+.figure-placeholder strong {
+  color: var(--accent);
+}
+
+.abstract-label {
+  margin: 0 0 0.4rem;
+  color: #344740;
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+.abstract-label + p {
+  margin-top: 0;
+}
+
+.paper-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.25rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.paper-link::after {
+  content: "→";
+  margin-left: 0.35rem;
+}
+
 /* CV timeline */
+
+.cv-link-panel {
+  margin: 0.8rem 0 2rem;
+  padding: 1rem 1.1rem;
+  border: 1px dashed #b8c8c1;
+  border-radius: 0.6rem;
+  background: #f6f8f7;
+  color: var(--ink-soft);
+}
+
+.cv-link-panel p {
+  margin: 0;
+}
+
+.cv-link-panel p + p {
+  margin-top: 0.2rem;
+  font-size: 0.92rem;
+}
 
 .timeline {
   margin: 1.25rem 0 2.25rem 0;
@@ -276,6 +505,20 @@ blockquote {
 }
 
 @media (max-width: 900px) {
+  .news-strip {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+
+  .news-item {
+    display: block;
+  }
+
+  .news-item p {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+
   .hero {
     grid-template-columns: 1fr;
   }
@@ -287,6 +530,10 @@ blockquote {
   .hero-card {
     margin-top: 0;
     max-width: 340px;
+  }
+
+  .paper-figure-pair {
+    grid-template-columns: 1fr;
   }
 
   .course-grid {

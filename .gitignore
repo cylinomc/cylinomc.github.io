@@ -6,3 +6,6 @@ _site/
 /.quarto/
 **/*.quarto_ipynb
 .claude/
+
+# Local-only website notes and archives; never publish or commit.
+.private/
