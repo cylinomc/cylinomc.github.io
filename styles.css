@@ -309,14 +309,23 @@ main.content li + li {
   margin: 0.9rem 0 0;
 }
 
-.tag-row {
+/* Quarto wraps the inline spans in a <p>, so that paragraph — not .tag-row —
+   is what actually holds the pills. Both need to be flex for the gap to apply. */
+
+.tag-row,
+.tag-row > p {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.6rem 0.75rem;
+}
+
+.tag-row > p {
+  margin: 0;
+  width: 100%;
 }
 
 .tag-list span {
-  padding: 0.3rem 0.7rem;
+  padding: 0.35rem 0.85rem;
   border: 1px solid var(--card-border);
   border-radius: 999px;
   background: var(--soft-bg);
@@ -400,7 +409,11 @@ main.content li + li {
   text-transform: uppercase;
 }
 
+/* Every figure box is the same height; the artwork is scaled to fit inside it,
+   so figures of very different aspect ratios still line up down the page. */
+
 .paper-figure {
+  --figure-height: 320px;
   display: flex;
   justify-content: center;
   margin: 1.25rem 0 1.45rem;
@@ -419,16 +432,10 @@ main.content li + li {
 
 .paper-figure img {
   display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 620px;
-  margin: auto;
-}
-
-.paper-figure-narrow img {
   width: 100%;
-  max-width: 620px;
+  height: var(--figure-height);
+  object-fit: contain;
+  margin: auto;
 }
 
 .paper-figure-pair {
@@ -436,13 +443,6 @@ main.content li + li {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   align-items: center;
-}
-
-.paper-figure-pair p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
 }
 
 .figure-placeholder {
@@ -514,6 +514,26 @@ main.content li + li {
 .paper-link::after {
   content: "→";
   margin-left: 0.35rem;
+}
+
+/* Unwritten copy. Loud on purpose — this must never ship unnoticed. */
+
+.tbd {
+  margin: 1rem 0;
+  padding: 0.7rem 0.9rem;
+  border: 2px dashed #b3541e;
+  border-radius: 0.4rem;
+  background: #fdf1e8;
+  color: #8a3d13;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.figure-credit {
+  margin: 2rem 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  text-align: center;
 }
 
 /* CV timeline */

@@ -7,9 +7,15 @@ _site/
 **/*.quarto_ipynb
 .claude/
 
+# Local paper PDFs (IEEE-copyrighted; never publish)
+Papers/
+
 # Local-only website notes and archives; never publish or commit.
 .private/
 
 # Unfinished private CV; restore to the public repository only when approved.
 /cv.qmd
 /cv.pdf
+
+# Internal design notes; never publish
+DESIGN_HANDOFF.html

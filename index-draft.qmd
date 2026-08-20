@@ -6,9 +6,9 @@ page-layout: full
 ::: {.hero-text}
 # Chih-Yu Lin
 
-## The right information, at the right time
-
-How can wireless networks support sensing, inference, control, and decision-making under strict timeliness and resource constraints? I develop **learning-based resource allocation** methods that determine *what* information a task needs, *when* it should be refreshed, and *how* limited radio, sensing, computing, and energy resources should be shared.
+::: {.tbd}
+TBD — tagline and research summary, in my own words.
+:::
 
 ::: {.hero-links}
 [Explore research →](research.qmd)
@@ -18,20 +18,10 @@ How can wireless networks support sensing, inference, control, and decision-maki
 
 ::: {.tag-list}
 ::: {.tag-row}
-<span>6G Wireless Networks</span>
-<span>Task-Oriented Semantic Communication</span>
-:::
-
-::: {.tag-row}
-<span>AoI</span>
-<span>NOMA</span>
-<span>ISAC</span>
-<span>LEO</span>
-:::
-
-::: {.tag-row}
-<span>Resource Allocation</span>
-<span>Scheduling</span>
+<span>Age of Information</span>
+<span>Non-Orthogonal Multiple Access (NOMA)</span>
+<span>AI for Networking</span>
+<span>Semantic Communication</span>
 :::
 :::
 :::
@@ -48,6 +38,18 @@ Visiting Researcher at the **University of Oulu**
 :::
 :::
 
+## Open to collaboration
+
+{{< include _content/collaboration.qmd >}}
+
+## Background
+
+{{< include _content/background.qmd >}}
+
+::: {.tbd}
+TBD — CV link. Send me the PDF or a public URL and I will link it here.
+:::
+
 ## Selected work
 
 ::: {.selected-grid}
@@ -58,7 +60,7 @@ Visiting Researcher at the **University of Oulu**
 
 ### Keeping safety-critical information fresh in vehicular networks
 
-A computation-aware NOMA-ISCC framework that jointly schedules sensing, communication, and computation — so vehicles act on information that is still fresh when it arrives.
+A computation-aware NOMA-ISCC framework that jointly optimizes task scheduling, beamforming, and power allocation — so that processed sensing information reaches vehicles while it is still useful, under stringent latency constraints.
 
 [Read more →](research.qmd)
 :::
@@ -68,32 +70,17 @@ A computation-aware NOMA-ISCC framework that jointly schedules sensing, communic
 
 <p class="selected-meta">IEEE Transactions on Wireless Communications · 2024</p>
 
-### When larger multicast groups beat interference — and when they don't
+### Larger multicast groups cut interference — at the cost of freshness
 
-Reveals the trade-off between multicast group size, inter-cell interference, and information freshness in multi-cell NOMA, with a provably optimal AoI-aware scheduling strategy.
+Shows how multicast group size trades off against inter-cell interference and information freshness in multi-cell NOMA, and proposes AIM, which adapts group size, scheduling, and power allocation together.
 
 [Read more →](research.qmd)
 :::
 :::
 
-[All projects →](research.qmd)
-
-## Open to collaboration
-
-I am actively looking for collaborators on:
-
-- **Freshness- and task-aware networking** — Age of Information, task-oriented and semantic metrics, scheduling theory
-- **ISAC and vehicular networks** — predictive beamforming, cooperative multi-RSU sensing, vehicular communication systems
-- **Learning-based resource allocation** — reinforcement learning and transformer-based control for 6G networks
-
-If your research intersects with any of these directions, I welcome the opportunity to discuss potential collaboration.
-
-## Background
-
-Before my Ph.D., I worked as an engineer at TSMC and ASMedia, on semiconductor design workflows and high-speed USB4 IP solutions. This industry experience shapes how I approach wireless systems research: with attention to implementation constraints, not only theoretical performance.
-
 ## News
 
-- **Aug 2026** — Paper accepted in *IEEE Transactions on Mobile Computing*: "AoI Minimization for Task-Oriented ISCC Networks with NOMA-Assisted Multicast-Unicast Transmissions."
+- **Aug 2026** — Paper published (early access) in *IEEE Transactions on Mobile Computing*: "[AoI Minimization for Task-Oriented ISCC Networks with NOMA-Assisted Multicast-Unicast Transmissions](https://doi.org/10.1109/TMC.2026.3722622)."
+- **Aug 2026** — Preprint posted: "[Joint Age-of-Latent and Resource Minimization for Wireless Multi-Camera Perception With Temporal Window Selection](https://arxiv.org/abs/2608.09411)" (arXiv:2608.09411), joint work with the University of Oulu.
 - **Aug 2026** — Paper accepted at *IEEE GLOBECOM 2026*: "Information-Rich Predictive Beamforming in Multi-RSU Systems via Joint Monostatic and Bistatic Sensing."
-- **Feb 2026** — Visiting Researcher at the University of Oulu, Finland (Chollima program), hosted by Prof. Mehdi Bennis at the 6G Flagship.
+- **Feb 2026** — Visiting Researcher at the University of Oulu, Finland, hosted by Prof. Mehdi Bennis.

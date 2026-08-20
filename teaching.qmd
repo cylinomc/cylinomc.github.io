@@ -32,4 +32,3 @@ Machine Learning for Wireless Networks, Reinforcement Learning, Data Structures,
 :::
 :::
 
-<!-- TODO: add "Teaching experience" and "Teaching materials" sections when there is content to list (teaching assistantships, guest lectures, invited tutorials, supervised students). -->

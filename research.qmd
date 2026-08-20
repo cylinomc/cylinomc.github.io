@@ -2,19 +2,15 @@
 title: "Research"
 ---
 
-These projects trace one question: how can wireless networks keep information **fresh and useful** for the tasks that depend on it, under real resource constraints? Each project below opens with a short summary; the full abstract is one click away.
-
-<!-- TODO: add DOI/arXiv links for the TMC 2026 and GLOBECOM 2026 papers once available. -->
-
 ::: {.paper-project}
-<p class="paper-meta">IEEE Transactions on Mobile Computing · Accepted 2026</p>
+<p class="paper-meta">IEEE Transactions on Mobile Computing · 2026</p>
 
 ## AoI Minimization for Task-Oriented ISCC Networks with NOMA-Assisted Multicast-Unicast Transmissions
 ::: {.paper-figure}
 ![](images/System_Architecture.png){fig-alt="Fig. 2. System model for the ISCC vehicular network."}
 :::
 
-Safety-critical vehicle applications need *processed* sensing information while it is still fresh — yet most Age-of-Information frameworks ignore computation delays entirely. This work proposes a computation-aware NOMA-ISCC framework that jointly optimizes task scheduling, beamforming, and power allocation, combining a hybrid multicast–unicast transmission design with a Transformer-based reinforcement learning controller. It substantially lowers the expected weighted-sum AoI over state-of-the-art benchmarks while improving spectral efficiency, latency reliability, and scalability.
+{{< include _content/research-tmc.qmd >}}
 
 <details class="paper-abstract">
 <summary>Abstract</summary>
@@ -22,6 +18,8 @@ Safety-critical vehicle applications need *processed* sensing information while 
 Integrated sensing and communication (ISAC) is a key enabler for 6G intelligent transportation systems, where the timely delivery of processed sensing information is essential for safety-critical Internet of Vehicles (IoV) applications. While Age of Information (AoI) has emerged as an important freshness metric, existing AoI minimization frameworks typically ignore task processing delays, limiting their applicability to computation-intensive IoV workloads. This motivates the shift toward integrated sensing, communication, and computation (ISCC). Although non-orthogonal multiple access (NOMA) improves spectral efficiency when sensing and communication contend for radio resources, conventional unicast dissemination incurs redundant transmissions, whereas broadcast approaches suffer from low decoding reliability. To overcome these limitations, we propose a computation-aware NOMA-ISCC framework that jointly optimizes task scheduling, beamforming, and power allocation to minimize the expected weighted sum AoI (EWSAoI) under stringent latency constraints. We develop a hybrid multicast–unicast transmission design, where identical sensing information is multicast and vehicle-specific data is unicast, and leverage NOMA superposition to enable concurrent target detection without incurring additional power cost. To solve the resulting mixed discrete–continuous, non-convex control problem, we design a Transformer-based Hybrid Proximal Policy Optimization (THPPO) algorithm that efficiently handles hybrid action spaces and generalizes across varying network densities. Extensive simulations show that the proposed framework substantially lowers EWSAoI relative to state-of-the-art benchmarks while improving spectral efficiency and latency reliability. Moreover, the system demonstrates strong scalability by preserving freshness and deadline reliability under larger and time-varying network scales.
 
 </details>
+
+[View on IEEE Xplore](https://doi.org/10.1109/TMC.2026.3722622){.paper-link target="_blank" rel="noopener"}
 :::
 
 ::: {.paper-project}
@@ -30,10 +28,10 @@ Integrated sensing and communication (ISAC) is a key enabler for 6G intelligent 
 ## Information-Rich Predictive Beamforming in Multi-RSU Systems via Joint Monostatic and Bistatic Sensing
 
 ::: {.paper-figure}
-![](images/overview.png){fig-alt="Original Fig. 1 from the GLOBECOM manuscript."}
+![](images/overview.png){fig-alt="Overview of the multi-RSU ISAC system: spatially separated RSUs jointly sense a vehicle via monostatic and bistatic links."}
 :::
 
-A single roadside unit mostly observes a vehicle's radial motion, which fundamentally limits how well it can predict where to point the beam next. This work lets multiple RSUs sense cooperatively — combining monostatic and bistatic observations from standard OFDM waveforms, with no extra signaling — and proposes MR-CLNet, an end-to-end spatio-temporal network that maps multi-RSU observations directly to future beam directions. It consistently outperforms single-RSU and learning-based baselines, with the largest gains at high speeds and on curved roads.
+{{< include _content/research-globecom.qmd >}}
 
 <details class="paper-abstract">
 <summary>Abstract</summary>
@@ -53,12 +51,12 @@ Integrated sensing and communication (ISAC) enables predictive beamforming in ve
 ![](images/IntercellInterference2.jpg){fig-alt="Fig. 2: Cell-edge group G6 in BS3 experiences inter-cell interference from two sources in BS1 and three sources in BS2."}
 :::
 
-Multicast group size hides a trade-off in multi-cell NOMA: larger groups suffer unstable information freshness but less inter-cell interference, while smaller groups face the reverse. This work proposes an AoI-aware interference mitigation (AIM) scheme that dynamically adjusts group size, scheduling, and power allocation — with proved optimality of the scheduling strategy — and shows that a bandit-based grouping approach outperforms random and fixed groupings. To our knowledge, this is the first study of AoI for task-oriented applications in multi-cell multicast NOMA networks.
+{{< include _content/research-twc.qmd >}}
 
 <details class="paper-abstract">
 <summary>Abstract</summary>
 
-Age of Information (AoI) is a critical performance metric for measuring information freshness in task-oriented Internet of Things (IoT) applications. In this work, we investigate how AoI impacts task-oriented multicasting in multi-cell Non-orthogonal Multiple Access (NOMA) networks, while considering the effects of inter-cell interference and multicast group size. Our findings reveal that larger group sizes lead to increased instability in AoI, but lower inter-cell interference; while smaller group sizes result in higher inter-cell interference but a smaller increase in AoI when transmission fails. To balance inter-cell interference and group size, we propose a novel AoI-aware inter-cell interference mitigation (AIM) solution, which dynamically adjusts multicast group size, schedules multicast groups for transmission, and allocates transmit power to multicast groups. We derive the optimality for achieving the lowest AoI of the AIM scheduling strategy and the upper bound of the number of scheduling groups. Our simulation results show that AIM ensures more successful transmissions through grouping and AoI-aware inter-cell interference mitigation. We also show that our AoI-aware grouping scheme outperforms random and fixed groupings by modeling the grouping problem to be a multi-armed bandit problem and solving it using the ϵ-greedy method. To the best of our knowledge, this is the first study to examine the AoI problem of task-oriented IoT applications in multi-cell multicast NOMA networks.
+Age of Information (AoI) is a critical performance metric for measuring information freshness in task-oriented Internet of Things (IoT) applications. In this work, we investigate how AoI impacts task-oriented multicasting in multi-cell Non-orthogonal Multiple Access (NOMA) networks, while considering the effects of inter-cell interference and multicast group size. Our findings reveal that larger group sizes lead to increased instability in AoI, but lower inter-cell interference; while smaller group sizes result in higher inter-cell interference but a smaller increase in AoI when transmission fails. To balance inter-cell interference and group size, we propose a novel AoI-aware inter-cell interference mitigation (AIM) solution, which dynamically adjusts multicast group size, schedules multicast groups for transmission, and allocates transmit power to multicast groups. We derive the optimality for achieving the lowest AoI of the AIM scheduling strategy and the upper bound of the number of scheduling groups. Our simulation results show that AIM ensures more successful transmissions and low weighted sum AoI through grouping and AoI-aware inter-cell interference mitigation. We also show that our AoI-aware grouping scheme outperforms random grouping and fixed grouping, as well as evolutionary-based genetic algorithm grouping, by modeling the grouping problem as a multi-armed bandit problem and solving it using the ϵ-greedy method. To the best of our knowledge, this is the first study to examine the AoI problem of task-oriented IoT applications in multi-cell multicast NOMA networks.
 
 </details>
 
@@ -71,12 +69,12 @@ Age of Information (AoI) is a critical performance metric for measuring informat
 ## Energy-aware Age of Information (AoI) Minimization for Internet of Things in NOMA-based LEO Satellite Networks
 
 ::: {.paper-figure .paper-figure-pair}
-![](images/NetworkArchitecture1_w.png){fig-alt="Original first panel of Fig. 1 from the VTC-Spring paper."}
+![](images/NetworkArchitecture1_w.png){fig-alt="Fig. 1(a). UL and DL transmissions via ISLs — Scenario 1: without a handover process."}
 
-![](images/NetworkArchitecture2_w.png){fig-alt="Original second panel of Fig. 1 from the VTC-Spring paper."}
+![](images/NetworkArchitecture2_w.png){fig-alt="Fig. 1(b). UL and DL transmissions via ISLs — Scenario 2: with a handover process."}
 :::
 
-Keeping IoT information fresh through LEO satellites means fighting propagation delay, satellite handovers, and inter-satellite hops — under a power budget. This work models uplink and downlink AoI end-to-end and proposes EA-AoI, a deep-reinforcement-learning scheduler with low-complexity power allocation. It achieves lower AoI than SIC-based, greedy, and random baselines on both simulated and real satellite trajectories, while keeping long-term average power within the required threshold.
+{{< include _content/research-vtc.qmd >}}
 
 <details class="paper-abstract">
 <summary>Abstract</summary>
@@ -86,4 +84,8 @@ In this paper, we explore the problem of minimizing the uplink and downlink age 
 </details>
 
 [View on IEEE Xplore](https://ieeexplore.ieee.org/document/10683037/){.paper-link target="_blank" rel="noopener"}
+:::
+
+::: {.figure-credit}
+Figures are reproduced from the author's papers cited above. © IEEE, where applicable.
 :::
