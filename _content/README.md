@@ -6,7 +6,8 @@ and the site picks it up. You never have to touch the page layout or any HTML.
 | File                        | Where it appears on the site                    |
 |-----------------------------|--------------------------------------------------|
 | `background.qmd`            | Home → Background                                 |
-| `collaboration.qmd`         | Home → Open to collaboration                      |
+| `research-interests.qmd`    | Home → Research interests (the three bullets)     |
+| `collaboration-note.qmd`    | Home → the sentence under the keyword pills       |
 | `research-tmc.qmd`          | Research → summary under the TMC 2026 paper       |
 | `research-globecom.qmd`     | Research → summary under the GLOBECOM 2026 paper  |
 | `research-twc.qmd`          | Research → summary under the TWC 2024 paper       |

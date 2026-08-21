@@ -1,0 +1,3 @@
+- **Timeliness and task-oriented communication** — Age of Information for semantic and task-oriented communications
+- **Timeliness and ISAC** — trade-offs between sensing freshness and communication freshness under a shared wireless resource budget
+- **Timeliness and LEO** — freshness and energy efficiency for IoT over LEO satellite constellations

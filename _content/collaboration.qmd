@@ -1,7 +1,0 @@
-I am interested in collaborating on:
-
-- **Timeliness and task-oriented communication** — Age of Information, semantic and task-oriented communications, and deadline-aware scheduling
-- **Timeliness and ISAC** — keeping sensing information fresh when sensing, communication, and computation contend for the same wireless resources
-- **Timeliness and LEO** — AoI-aware scheduling and power allocation for IoT over LEO satellite constellations
-
-If your research intersects with any of these directions, I welcome the opportunity to discuss potential collaboration.

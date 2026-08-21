@@ -6,23 +6,25 @@ page-layout: full
 ::: {.hero-text}
 # Chih-Yu Lin
 
-::: {.tbd}
-TBD — tagline and research summary, in my own words.
+## Research interests
+
+{{< include _content/research-interests.qmd >}}
+
+::: {.tag-list}
+::: {.tag-row}
+<span>AoI</span>
+<span>NOMA</span>
+<span>Semantic Communication</span>
+<span>AI for Networking</span>
 :::
+:::
+
+{{< include _content/collaboration-note.qmd >}}
 
 ::: {.hero-links}
 [Explore research →](research.qmd)
 
 [Discuss collaboration →](contact.qmd)
-:::
-
-::: {.tag-list}
-::: {.tag-row}
-<span>Age of Information</span>
-<span>Non-Orthogonal Multiple Access (NOMA)</span>
-<span>AI for Networking</span>
-<span>Semantic Communication</span>
-:::
 :::
 :::
 
@@ -38,17 +40,11 @@ Visiting Researcher at the **University of Oulu**
 :::
 :::
 
-## Open to collaboration
-
-{{< include _content/collaboration.qmd >}}
-
 ## Background
 
 {{< include _content/background.qmd >}}
 
-::: {.tbd}
-TBD — CV link. Send me the PDF or a public URL and I will link it here.
-:::
+[Curriculum vitae →](#){.cv-link}
 
 ## Selected work
 
