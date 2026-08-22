@@ -2,13 +2,13 @@
 title: "Publications"
 ---
 
-For the most up-to-date publication record, please see my [Google Scholar profile](https://scholar.google.com/citations?user=NSj-LLQAAAAJ&hl=en). <span class="pub-star">★</span> denotes selected publications. The [Research](research.qmd) page presents this work in detail.
+<span class="pub-star">★</span> denotes selected publications.
 
 ## Journal papers
 
-1. **C.-Y. Lin** and W. Liao, “[AoI Minimization for Task-Oriented ISCC Networks with NOMA-Assisted Multicast-Unicast Transmissions](https://doi.org/10.1109/TMC.2026.3722622),” *IEEE Transactions on Mobile Computing*, early access, pp. 1–15, 2026. (IF: 8.8) <span class="pub-star">★</span>
+1. **C.-Y. Lin** and W. Liao, “[AoI Minimization for Task-Oriented ISCC Networks with NOMA-Assisted Multicast-Unicast Transmissions](https://doi.org/10.1109/TMC.2026.3722622),” *IEEE Transactions on Mobile Computing*, early access, pp. 1–15, 2026. (***IF 8.8, Telecommunications 13/84, Q1***) <span class="pub-star">★</span>
 
-2. **C.-Y. Lin** and W. Liao, “[AoI-Aware Interference Mitigation for Task-Oriented Multicasting in Multi-Cell NOMA Networks](https://doi.org/10.1109/TWC.2024.3381480),” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 11341–11356, Sep. 2024. (IF: 10.7) <span class="pub-star">★</span>
+2. **C.-Y. Lin** and W. Liao, “[AoI-Aware Interference Mitigation for Task-Oriented Multicasting in Multi-Cell NOMA Networks](https://doi.org/10.1109/TWC.2024.3381480),” *IEEE Transactions on Wireless Communications*, vol. 23, no. 9, pp. 11341–11356, Sep. 2024. (***IF 10.3, Telecommunications 3/84, Q1***) <span class="pub-star">★</span>
 
 ## Conference papers
 

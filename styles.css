@@ -133,24 +133,6 @@ main.content li + li {
   margin-top: 0.15rem;
 }
 
-/* Temporary holding page */
-
-.holding {
-  max-width: 34rem;
-  margin: 18vh auto 0;
-  padding: 0 1.5rem;
-  text-align: center;
-}
-
-.holding h1 {
-  font-size: clamp(2rem, 5vw, 2.8rem);
-  margin-bottom: 0.6rem;
-}
-
-.holding p {
-  color: var(--ink-soft);
-}
-
 /* Homepage hero */
 
 .hero {
@@ -202,7 +184,6 @@ main.content li + li {
 .hero-text h2 {
   margin-top: 0;
   margin-bottom: 0.55rem;
-  font-size: clamp(1.3rem, 2.2vw, 1.55rem);
 }
 
 /* The interest list sits beside the portrait, so it needs a tighter measure
@@ -211,7 +192,6 @@ main.content li + li {
 .hero-text ul {
   margin: 0;
   padding-left: 1.1rem;
-  font-size: 0.94rem;
 }
 
 .hero-text ul li + li {
@@ -220,7 +200,6 @@ main.content li + li {
 
 .hero-text .tag-list + p {
   margin-top: 1rem;
-  font-size: 0.94rem;
   color: var(--ink-soft);
 }
 
@@ -252,6 +231,36 @@ main.content li + li {
 .hero-links a:hover,
 .hero-links a:focus {
   text-decoration: underline;
+}
+
+/* Homepage sections are separated by typographic rhythm rather than decoration. */
+
+#background,
+#selected-work,
+#news {
+  margin-top: clamp(3.4rem, 7vw, 5rem);
+}
+
+#background {
+  max-width: 46rem;
+}
+
+#background > h2,
+#selected-work > h2,
+#news > h2 {
+  margin-bottom: 0.85rem;
+  color: #20272a;
+  font-size: clamp(1.65rem, 3vw, 2rem);
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+#background > p:nth-last-of-type(2) {
+  margin-bottom: 0.4rem;
+}
+
+#background > p:has(.cv-link) {
+  margin: 0;
 }
 
 .button-row {
@@ -355,7 +364,7 @@ main.content li + li {
   border: 1px solid var(--card-border);
   border-radius: 999px;
   background: var(--soft-bg);
-  font-size: 0.9rem;
+  font-size: 0.94rem;
   color: #3d4a45;
   white-space: nowrap;
 }
@@ -544,7 +553,7 @@ main.content li + li {
 
 .cv-link {
   display: inline-block;
-  margin-top: 0.9rem;
+  margin-top: 0.15rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -552,19 +561,6 @@ main.content li + li {
 .cv-link:hover,
 .cv-link:focus {
   text-decoration: underline;
-}
-
-/* Unwritten copy. Loud on purpose — this must never ship unnoticed. */
-
-.tbd {
-  margin: 1rem 0;
-  padding: 0.7rem 0.9rem;
-  border: 2px dashed #b3541e;
-  border-radius: 0.4rem;
-  background: #fdf1e8;
-  color: #8a3d13;
-  font-weight: 600;
-  letter-spacing: 0.01em;
 }
 
 .figure-credit {

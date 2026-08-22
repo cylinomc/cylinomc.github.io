@@ -3,6 +3,27 @@ title: "Research"
 ---
 
 ::: {.paper-project}
+<p class="paper-meta">Preprint · arXiv 2026</p>
+
+## Joint Age-of-Latent and Resource Minimization for Wireless Multi-Camera Perception With Temporal Window Selection
+
+::: {.paper-figure}
+![](images/AoL_SystemModel.png){fig-alt="Fig. 1. System model of the proposed multi-camera wireless perception framework: correlated cameras upload JEPA latent representations over a NOMA uplink to a base station that maintains and predicts latent beliefs within a temporal window of integration."}
+:::
+
+{{< include _content/research-aol.qmd >}}
+
+<details class="paper-abstract">
+<summary>Abstract</summary>
+
+Multi-camera wireless perception requires a base station (BS) to maintain timely and reliable latent beliefs from distributed cameras under limited uplink resources. Conventional Age-of-Information (AoI) measures the age of the latest received update but not task-relevant latent content. We introduce Age-of-Latent (AoL) to quantify the freshness of each camera's latest decoded latent representation. A finite temporal window of integration (TWI) determines the task-commitment time and available uplink slots, creating a tradeoff among update opportunities, prediction duration, commit-time AoL, prediction reliability, and accumulated resource cost. Within this horizon, redundant or overlapping views enable correlated prediction, reducing reliance on the highest-cost communication and encoding configuration to maintain BS-side latent beliefs. We formulate a joint AoL-resource minimization problem coupling task-level TWI selection with slot-level encoder selection, scheduling, and NOMA power allocation under prediction-reliability constraints. We propose correlation-aware latent prediction for AoL minimization (CoLA), which uses Lyapunov optimization for task-level TWI selection based on AoL-resource cost and prediction uncertainty, and proximal policy optimization for slot-level resource control. Results on a warehouse multi-camera RF dataset show that CoLA adapts the TWI to camera-update availability and achieves the most favorable AoL-resource tradeoff among the benchmarks while maintaining prediction reliability, particularly under prolonged and severe camera outages.
+
+</details>
+
+[Read on arXiv](https://arxiv.org/abs/2608.09411){.paper-link target="_blank" rel="noopener"}
+:::
+
+::: {.paper-project}
 <p class="paper-meta">IEEE Transactions on Mobile Computing · 2026</p>
 
 ## AoI Minimization for Task-Oriented ISCC Networks with NOMA-Assisted Multicast-Unicast Transmissions
