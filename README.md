@@ -5,7 +5,7 @@ This repository contains the source files for a Quarto-based academic homepage.
 Draft site URL after GitHub Pages is enabled:
 
 ```text
-https://dululu29.github.io/
+https://cylinomc.github.io/
 ```
 
 ## Local preview
