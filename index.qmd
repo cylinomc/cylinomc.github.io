@@ -34,8 +34,8 @@ page-layout: full
 :::
 
 ::: {.hero-affiliation}
-Ph.D. Candidate at **National Taiwan University**\
-Visiting Researcher at the **University of Oulu**
+Ph.D. Candidate at **National Taiwan University, Taiwan**\
+Visiting Researcher at the **University of Oulu, Finland**
 :::
 :::
 :::
