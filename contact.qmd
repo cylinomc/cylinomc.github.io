@@ -13,6 +13,6 @@ title: "Contact"
 - [LinkedIn](https://www.linkedin.com/in/chih-yu-lin-287948113/)
 - [ORCID](https://orcid.org/0009-0001-3024-4757)
 
-## For prospective collaboration
+## For prospective collaborations
 
-I welcome research discussions and academic correspondence related to wireless communications and networking — particularly on timeliness and task-oriented communication, timeliness and ISAC, and timeliness and NTN. Please reach out by email or through the profiles above.
+I am open to research discussions and collaborations on task-oriented semantic communication, timeliness-aware ISAC, and NTN. Please contact me by email or through the profiles above.
