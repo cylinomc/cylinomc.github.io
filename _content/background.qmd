@@ -1,3 +1,3 @@
-I am a Ph.D. candidate in the Department of Electrical Engineering at National Taiwan University, advised by Prof. Wanjiun Liao. Since February 2026 I have been a visiting researcher at the University of Oulu, Finland, working with Prof. Mehdi Bennis.
+I am a Ph.D. candidate in the Department of Electrical Engineering at National Taiwan University, advised by [Prof. Wanjiun Liao](https://scholar.google.com/citations?user=QgJzCPoAAAAJ). Since February 2026 I have been a visiting researcher at the University of Oulu, Finland, working with [Prof. Mehdi Bennis](https://scholar.google.com/citations?user=RW4sJu8AAAAJ).
 
 I worked as an engineer at TSMC and ASMedia, focusing on intellectual property (IP) verification and designing high-speed USB4 IP solutions. I hold an M.S. in Computer Science and Information Engineering from National Chung Cheng University and a B.S. in Computer Science and Engineering from Yuan Ze University.

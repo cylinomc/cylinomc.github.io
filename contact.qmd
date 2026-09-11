@@ -15,4 +15,4 @@ title: "Contact"
 
 ## For prospective collaboration
 
-I welcome research discussions and academic correspondence related to wireless communications and networking — particularly on timeliness and task-oriented communication, timeliness and ISAC, and timeliness and LEO satellite networks. Please reach out by email or through the profiles above.
+I welcome research discussions and academic correspondence related to wireless communications and networking — particularly on timeliness and task-oriented communication, timeliness and ISAC, and timeliness and NTN. Please reach out by email or through the profiles above.
