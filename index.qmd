@@ -44,7 +44,7 @@ Visiting Researcher at the **University of Oulu, Finland**
 
 {{< include _content/background.qmd >}}
 
-[Curriculum vitae →](files/Chih-Yu-Lin-CV.pdf){.cv-link target="_blank" rel="noopener"}
+[Curriculum vitae →](#){.cv-link}
 
 ## Selected work
 
