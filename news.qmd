@@ -1,0 +1,6 @@
+---
+title: "News"
+---
+
+{{< include _content/news-latest.qmd >}}
+

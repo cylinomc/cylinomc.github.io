@@ -13,6 +13,7 @@ and the site picks it up. You never have to touch the page layout or any HTML.
 | `research-globecom.qmd`     | Research → summary under the GLOBECOM 2026 paper  |
 | `research-twc.qmd`          | Research → summary under the TWC 2024 paper       |
 | `research-vtc.qmd`          | Research → summary under the VTC-Spring 2024 paper|
+| `news-latest.qmd`           | Home → News (keep the newest 5; also tops the News page) |
 
 ## Rules
 
@@ -35,3 +36,11 @@ rendered as its own page. Its text only appears where a page includes it.
 Those four paragraphs describe published papers. If you reword them, keep the claims
 inside what each paper actually shows — an earlier audit found several summaries had
 drifted stronger than the papers supported.
+
+## Adding news
+
+Add the new item at the top of `news-latest.qmd`. If that makes 6, move the bottom
+line into `news.qmd` (outside this folder), below the include line.
+
+`news.qmd` is not published yet. To turn it on: remove `"!news.qmd"` from
+`_quarto.yml`, and add `[More news →](news.qmd)` under the include in `index.qmd`.

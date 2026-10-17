@@ -5,6 +5,7 @@ project:
     - "*.qmd"
     - "!teaching.qmd"
     - "!cv.qmd"
+    - "!news.qmd"
 
 website:
   title: "Chih-Yu Lin"
